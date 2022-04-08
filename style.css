@@ -1,0 +1,118 @@
+:root {
+  --main-color: #6c62ff;
+  --alternate-color: #ffffff;
+  --border: 1px solid #6c62ff;
+  --border-radius: 5px;
+}
+
+h1,
+h2,
+h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+h1 {
+  font-size: 96px;
+}
+
+h2 {
+  font-size: 48px;
+}
+
+h3 {
+  font-size: 24px;
+  opacity: 0.7;
+}
+
+p {
+  font-size: 18px;
+}
+
+.img-border {
+  border: 9px solid #ffffff;
+  border-radius: 3px;
+}
+
+.img-background {
+  background-color: #f6f1fe;
+}
+.center {
+  text-align: center;
+}
+
+.top-page {
+  margin-top: 60px;
+  max-width: 800px;
+}
+
+.links {
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+}
+
+.contact,
+.about,
+.yoga-link,
+.weather-link,
+.blog-link {
+  border: var(--border);
+  border-radius: var(--border-radius);
+  text-align: center;
+  margin: 20px;
+  padding: 20px 10px;
+  text-decoration: none;
+}
+.contact {
+  background-color: var(--main-color);
+  color: var(--alternate-color);
+}
+
+.about {
+  color: var(--main-color);
+}
+
+.contact:hover {
+  color: var(--alternate-color);
+}
+
+.about:hover {
+  color: var(--main-color);
+}
+
+.homepage-link {
+  color: var(--main-color);
+}
+
+.homepage-link:hover {
+  color: var(--main-color);
+}
+
+.mail {
+  display: block;
+  text-decoration: none;
+  color: var(--main-color);
+  font-size: 28px;
+  text-align: center;
+}
+
+.mail:hover {
+  color: var(--main-color);
+  text-decoration: underline;
+}
+
+.yoga-link {
+  background-color: var(--main-color);
+  color: var(--alternate-color);
+}
+
+.weather-link {
+  background-color: var(--main-color);
+  color: var(--alternate-color);
+}
+
+.blog-link {
+  background-color: var(--main-color);
+  color: var(--alternate-color);
+}
